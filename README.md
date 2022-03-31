@@ -48,15 +48,19 @@ LOSS ON HARD:![Hard Loss](https://user-images.githubusercontent.com/91065673/161
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+
 I used W3Schools.com to help brush up ono how for loops for JavaScript as well as StackOverflow on how to manipulate the shape of the buttons.
 
-2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words):
+2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it?:
+
 One of the main challenges I faced was adjusting to the syntax of JavaScript. Having little exposure to JavaScript, I found difficuty in trying to implement the features I wanted to because of a lack of knowledge regarding its syntax. I then decided to go in-depth and learn more about the language and gain more confidence in programming with it. I would study videos and websites on basic syntax and solve small problems to familiarize myself with the little nuances and differences that came with JS. In the end, I would say I gained a good amount of knowledge and, most importantly, confidence when now coding in JS. Another issue I ran into was relearning HTML and CSS. Transitioning bask into this area of programming was a refresher for me as I have not coded in HTML and CSS for a couple of years, so I had to overcome the hurdle of familiarizing myself with this. The way I overcame this was by opening my past projects that I did in high school and my freshman year in college. Through the use of my comments, I was able to study and refresh HTML and CSS syntax and how both pages interact with each other, and how they generate what is displayed on the page. I used this to deepen my understanding of how these HTML pages are being used to display the buttons and the various text.
 
-3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+3. What questions about web development do you have after completing your submission?:
+
 My biggest questions regarding web development would be mainly about the back-end and how data is transferred from web page to web page. Creating web pages and websites is remarkable and a very underrated aspect of programming but I rarely see what is happening behind the scenes. How all these web applications and web pages transfer data like passwords and usernames into databases would be cool to learn more about and touch base upon. Another question I have is how important networking is in the realm of web development. Having a front-end and back-end development team is common, but I know that this is not always the case for some companies and start-ups. Would having a solid networking background play a part in how marketable you are in the web development hiring game?
 
-4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc).
+
 I like the current gameplay loop and would not change the core gameplay in any huge way that would alter it. I would put most of my time with the game's appearance, like refining buttons and creating custom art and animations for the game. I would put my time into creating pixel art and buttons and implement several menus on startup. A game menu that displays the title with an options menu to change volume or toggle a colorblind mode would be an excellent place to start. Creating custom music to go in the background of menus would be great to include as well. Regarding functions, I would try to add more modes and options to spice-up gameplay. One would be to add an insane difficulty where the pattern will go up to 20, and the AI displays the pattern 4 buttons at a time. Another mode I would try to implement would be to implement movement regarding the buttons with a timer. It will be testing not only the player's memory but also their hand-eye coordination.
 
 
