@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Ryson Requests!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Ryson Requests!
+    </h1>
+    <p>
+      Welcome To Ryson Requests! Successfully complete the pattern as long as possible!
+    </p>
+    
+    <button id="startBtn" onclick="selectDifficulty()" >
+      Start
+    </button>
+  
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    
+    <button id="easyBtn" onclick="startGame(5)" class="hidden" >
+      Easy
+    </button>
+    
+    <button id="mediumBtn" onclick="startGame(7)" class="hidden" >
+      Medium
+    </button>
+    
+    <button id="hardBtn" onclick="startGame(9)" class="hidden" >
+      Hard
+    </button>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"  class="hidden"></button>
+    </div>
+    
+
+
+
+  </body>
+</html>
