@@ -40,9 +40,10 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-WIN ON EASY![Easy Win](https://user-images.githubusercontent.com/91065673/161107673-085204e4-0911-4aef-83aa-7aee1910fc2e.gif)
-WIN ON MEDIUM![Medium Win](https://user-images.githubusercontent.com/91065673/161107721-36c0d70e-ca0b-4160-bee4-03295c0cf5c7.gif)
-LOSS ON HARD![Hard Loss](https://user-images.githubusercontent.com/91065673/161107717-51a41ef4-6188-4a31-bf4e-a2e8deccd0c5.gif)
+
+WIN ON EASY:![Easy Win](https://user-images.githubusercontent.com/91065673/161107673-085204e4-0911-4aef-83aa-7aee1910fc2e.gif)
+WIN ON MEDIUM:![Medium Win](https://user-images.githubusercontent.com/91065673/161107721-36c0d70e-ca0b-4160-bee4-03295c0cf5c7.gif)
+LOSS ON HARD:![Hard Loss](https://user-images.githubusercontent.com/91065673/161107717-51a41ef4-6188-4a31-bf4e-a2e8deccd0c5.gif)
 
 
 ## Reflection Questions
