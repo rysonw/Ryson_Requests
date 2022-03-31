@@ -35,16 +35,15 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [X] Difficulties were added that change the pattern length required to win (5)(7)(9)
-- [X] Extra Buttons are only added on Hard Difficulty
+- [X] Extra Buttons are only added on hard difficulty only
 
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-(https://user-images.githubusercontent.com/91065673/161107300-a0aa0690-8c98-46b2-81b3-ee0f6a8eab40.gif) WIN ON EASY
-(https://user-images.githubusercontent.com/91065673/161107377-03c66ed4-5c0f-4881-a2cb-208edfd2d2cf.gif)
--here) Win on Medium
-(https://user-images.githubusercontent.com/91065673/161107359-f5284d04-4957-4789-9e5f-1b086c7948a0.gif)
-k-here) Loss on Hard
+WIN ON EASY![Easy Win](https://user-images.githubusercontent.com/91065673/161107673-085204e4-0911-4aef-83aa-7aee1910fc2e.gif)
+WIN ON MEDIUM![Medium Win](https://user-images.githubusercontent.com/91065673/161107721-36c0d70e-ca0b-4160-bee4-03295c0cf5c7.gif)
+LOSS ON HARD![Hard Loss](https://user-images.githubusercontent.com/91065673/161107717-51a41ef4-6188-4a31-bf4e-a2e8deccd0c5.gif)
+
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
