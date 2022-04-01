@@ -49,7 +49,7 @@ LOSS ON HARD:![Hard Loss](https://user-images.githubusercontent.com/91065673/161
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
-I used W3Schools.com to help brush up ono how for loops for JavaScript as well as StackOverflow on how to manipulate the shape of the buttons.
+I used W3Schools.com to help brush up on for and while loops for Java as well as StackOverflow for ideas on how to manipulate the shape of the buttons within the CSS files.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it?:
 
