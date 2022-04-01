@@ -65,7 +65,7 @@ I like the current gameplay loop and would not change the core gameplay in any h
 
 
 
-## Interview Recording URL Link
+## Interview Recording
 
 [My 5-minute Interview Recording]https://www.loom.com/share/de8fcf93a24f416fbc9005c0c5ffb9a4
 
