@@ -69,6 +69,22 @@ I like the current gameplay loop and would not change the core gameplay in any h
 
 [My 5-minute Interview Recording]https://www.loom.com/share/de8fcf93a24f416fbc9005c0c5ffb9a4
 
+Transcript:
+
+*If you had your choice, what problems would you like to help solve using technology?*
+I love this question because there are so many problems technology has solved and will come to solve. One problem would be pollution and sustainility issues. Growing up in the state of Hawaii, I hope to one day contribute to environmental problems around the world through the power of technology. Having experience with satellite communications,  I would ike to develop an application that uses GPS data that can detect forest fires, large amounts of condensed sea pollution and debris as well as other things. For example, Hawaii has a huge problem with abandoned cars in forests, rural neighborhoods and more. DEveloping an application that can spot these cars and help pinpoint their locations so that they can be removed from their location will help the enviornment o much. I hope to develop solutions to many more local problems liek this one.
+
+*What has been one of your favorite technical topics in your CS studies so far?*
+One of my favorite topics so far has been mobile application development. Building a full-stack mobile application from scratch was one of the best experiences I have had so far in my computer science career as a student. It really pulls everything you have learned as is a great way to start building personal coding projects from nothing. I have been building my own flashcard application with CodePath and have been loving the experience so far. I hope to do more of this in the future.
+
+*What CS topic has given you a hard time?*
+The computer science topic I have struggled most with is Data Structures and Algorithims. Since this class is so heavily reliant on coneptual teachings, It was hard for me to adjust because I really enjoy hands-on learning. Overtime, I noticed how important this class was to CS as a whole to building efficient programs and understanding basic coding structure. Even though this class was challenging, I still try to absorb as much in this course as possible.
+
+*Suppose you’re working on a project with a group and a teammate suggests a feature that you feel strongly will take the project in a bad direction. What do you do?*
+	I would first ask my teammate why they think this feature is so necessary and a clear explanation of how and why it needs to be implemented. I would then, respectfully, give my explanation on why I believe that would not work and that we should leave it out. I would also ask the rest of my teammates what they believe is the right decision going forward. For team projects, I always believe collaboration and communication are key no matter what setting you are in. Doing a vote and gathering input from everybody is the best way to move forward on whether or not we should implement the suggested feature
+ 
+*What are some of the things you’re hoping to take away from the SITE program?*
+I hope to absorb as much information as possible. Having the opportunity to be surrounded my so many developed and experienced engineers and developers is too great of an opportunity so I will be sure to make the most that I can of it. I would like to learn more about back-end web development and gather new ideas about other possible fields I can partake in once I have finished my degree. I would also like to expand my network as much as possible. Meeting new developers and engineers like myself is a great way to learn, grow and increase chances of success later down the road in my career. Another thing I hope to take away is an the work schedule of a modern-day software engineer/developer. I would liek to get familiar with the culture, atmosphere, and mindset of an engineer to better prepare me for when I am actually in the field. The final thing I hope to take away is a well-polished and developed application to add to my portfolio. With everything that I do, I want to exceed expectations as much as I possibly can. I know that if I do get into this prestigious program, that I will be putting forth my 110% best effort to put out a quality product to present to the board
 
 ## License
 
