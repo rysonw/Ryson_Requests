@@ -4,7 +4,7 @@ Ryson Requests is a Light & Sound Memory game to apply for CodePath's SITE Progr
 
 Submitted by: Ryson W. Wong
 
-Time spent: 2.5 hours spent in total
+Time spent: 12 hours spent in total
 
 Link to project: https://glitch.com/edit/#!/ryson-requests
 
@@ -25,17 +25,20 @@ The following **optional** features are implemented:
 * [X] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
 * [X] Buttons use a pitch (frequency) other than the ones in the tutorial
 * [X] More than 4 functional game buttons
-* [ ] Playback speeds up on each turn
+* [X] Playback speeds up on each turn
 * [X] Computer picks a different pattern each time the game is played
-* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [X] Player only loses after 3 mistakes (instead of on the first mistake)
 * [X] Game button appearance change goes beyond color (e.g. add an image)
-* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-* [ ] User has a limited amount of time to enter their guess on each turn
+* [X] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [X] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
-- [X] Difficulties were added that change the pattern length required to win (5)(7)(9)
-- [X] Extra Buttons are only added on hard difficulty only
+- [X] Difficulties were added that change the pattern length required to win (7)(9)(11)(20)
+- [X] Extra Buttons are only added on hard and insane difficulty only
+- [X] Hearts are used to represent lives on timed mode, lives are taken when a mistake is made
+- [X] Created an endless and timed mode for better structure
+- [X] Created high score boards for timed and endless mode
 
 ## Video Walkthrough (GIF)
 
@@ -71,14 +74,14 @@ I like the current gameplay loop and would not change the core gameplay in any h
 
 Transcript:
 
-*If you had your choice, what problems would you like to help solve using technology?*
+*If you had your choice, what problems would you like to help solve using technology?* 
 I love this question because there are so many problems technology has solved and will come to solve. One problem would be pollution and sustainility issues. Growing up in the state of Hawaii, I hope to one day contribute to environmental problems around the world through the power of technology. Having experience with satellite communications,  I would ike to develop an application that uses GPS data that can detect forest fires, large amounts of condensed sea pollution and debris as well as other things. For example, Hawaii has a huge problem with abandoned cars in forests, rural neighborhoods and more. DEveloping an application that can spot these cars and help pinpoint their locations so that they can be removed from their location will help the enviornment o much. I hope to develop solutions to many more local problems like this one.
 
 *What has been one of your favorite technical topics in your CS studies so far?*
 One of my favorite topics so far has been mobile application development. Building a full-stack mobile application from scratch was one of the best experiences I have had so far in my computer science career as a student. It really pulls everything you have learned as is a great way to start building personal coding projects from nothing. I have been building my own flashcard application with CodePath and have been loving the experience so far. I hope to do more of this in the future.
 
 *What CS topic has given you a hard time?*
-The computer science topic I have struggled most with is Data Structures and Algorithims. Since this class is so heavily reliant on coneptual teachings, It was hard for me to adjust because I really enjoy hands-on learning. Overtime, I noticed how important this class was to CS as a whole to building efficient programs and understanding basic coding structure. Even though this class was challenging, I still try to absorb as much in this course as possible.
+The computer science topic I have struggled most with is Data Structures and Algorithims. Since this class is so heavily reliant on conceptual teachings, It was hard for me to adjust because I really enjoy hands-on learning. Overtime, I noticed how important this class was to CS as a whole to building efficient programs and understanding basic coding structure. Even though this class was challenging, I still tried to absorb as much in this course as possible.
 
 *Suppose you’re working on a project with a group and a teammate suggests a feature that you feel strongly will take the project in a bad direction. What do you do?*
 	I would first ask my teammate why they think this feature is so necessary and a clear explanation of how and why it needs to be implemented. I would then, respectfully, give my explanation on why I believe that would not work and that we should leave it out. I would also ask the rest of my teammates what they believe is the right decision going forward. For team projects, I always believe collaboration and communication are key no matter what setting you are in. Doing a vote and gathering input from everybody is the best way to move forward on whether or not we should implement the suggested feature
