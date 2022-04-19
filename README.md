@@ -44,10 +44,15 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
-WIN ON EASY:![Easy Win](https://user-images.githubusercontent.com/91065673/161107673-085204e4-0911-4aef-83aa-7aee1910fc2e.gif)
-WIN ON MEDIUM:![Medium Win](https://user-images.githubusercontent.com/91065673/161107721-36c0d70e-ca0b-4160-bee4-03295c0cf5c7.gif)
-LOSS ON HARD:![Hard Loss](https://user-images.githubusercontent.com/91065673/161107717-51a41ef4-6188-4a31-bf4e-a2e8deccd0c5.gif)
+WIN ON EASY:![RR_Easy_Win](https://user-images.githubusercontent.com/91065673/163972945-80d756da-52d8-4f17-b35f-d8b7f3227652.gif)
 
+WIN ON MEDIUM:![RR_Medium_Win](https://user-images.githubusercontent.com/91065673/163972964-24b06950-b081-4c8b-93e9-465a1079ee7b.gif)
+
+LOSS ON INSANE:![RR_Insane_Loss](https://user-images.githubusercontent.com/91065673/163973033-1a9a2d5a-d85e-4a66-9f06-288eb295f5af.gif)
+
+ENDLESS MODE with LEADERBOARD:![RR_Endless](https://user-images.githubusercontent.com/91065673/163973076-51340a5b-1066-4315-b3d1-f425330f654b.gif)
+
+TIMED MODE with LIVES:
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
