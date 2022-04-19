@@ -21,14 +21,19 @@ body {
 
 
 h1 {
-  font-family: verdana, arial, sans-serif
+  font-family: verdana, arial, sans-serif, fantasy
 }
 
+
+p2 {
+  
+}
 
 button {
   padding: 10px;
   border-radius: 10px;
   border-radius: 50%;
+  font: bold 10pt Verdana, sans-serif;
 }
 
 #gameButtonArea > button {
@@ -65,6 +70,10 @@ button {
     background: grey;
 }
 
+#button6 {
+    background: orange;
+}
+
 
 #button1:active, #button1.lit{
     background:green;
@@ -84,6 +93,10 @@ button {
 
 #button5:active, #button5.lit {
     background:black;
+}
+
+#button6:active, #button6.lit {
+    background:darkorange;
 }
 
 

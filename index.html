@@ -15,43 +15,128 @@
   </head>
   <body>
     <!-- this is the start of content -->
-    <h1>
-      Ryson Requests!
-    </h1>
-    <p>
-      Welcome To Ryson Requests! Successfully complete the pattern as long as possible!
-    </p>
-    
-    <button id="startBtn" onclick="selectDifficulty()" >
-      Start
+    <h1>Ryson Requests!</h1>
+
+    <p1 id="instruction">
+      Welcome! <br />
+      https://github.com/rysonw/Ryson_Requests
+    </p1>
+
+    <p2 class="hidden">
+      Welcome To Ryson Requests! Successfully complete the pattern as long as
+      possible!
+    </p2>
+
+    <br />
+
+    <!-- Menu Buttons Start -->
+    <button id="classicBtn" onclick="selectDifficulty()">CLASSIC</button>
+
+    <button id="endlessBtn" onclick="startEndlessGame()">ENDLESS</button>
+
+    <button id="timeBtn" onclick="startTimeGame()">TIME TRIAL</button>
+
+    <button id="stopBtn" class="hidden" onclick="stopGame()">STOP</button>
+
+    <button id="easyBtn" onclick="startClassicGame(5)" class="hidden">
+      EASY
     </button>
-  
-    <button id="stopBtn" class="hidden" onclick="stopGame()">
-      Stop
+
+    <button id="mediumBtn" onclick="startClassicGame(7)" class="hidden">
+      MEDIUM
     </button>
-    
-    <button id="easyBtn" onclick="startGame(5)" class="hidden" >
-      Easy
+
+    <button id="hardBtn" onclick="startClassicGame(9)" class="hidden">
+      HARD
     </button>
-    
-    <button id="mediumBtn" onclick="startGame(7)" class="hidden" >
-      Medium
+
+    <button id="insaneBtn" onclick="startClassicGame(20)" class="hidden">
+      INSANE
     </button>
-    
-    <button id="hardBtn" onclick="startGame(9)" class="hidden" >
-      Hard
-    </button>
-    
+
+    <!-- Lives and Game Buttons -->
+
+    <img
+      src="https://cdn.glitch.global/3a538cfc-21fa-4242-9f9c-9ff830d97e81/life.png?v=1650160871483"
+      width="40"
+      id = "life1"
+      class="hidden"
+    />
+
+    <img
+      src="https://cdn.glitch.global/3a538cfc-21fa-4242-9f9c-9ff830d97e81/life.png?v=1650160871483"
+      width="40"
+      id = "life2"
+      class="hidden"
+    />
+
+    <img
+      src="https://cdn.glitch.global/3a538cfc-21fa-4242-9f9c-9ff830d97e81/life.png?v=1650160871483"
+      width="40"
+      id = "life3"
+      class="hidden"
+    />
+
     <div id="gameButtonArea">
-      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
-      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
-      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
-      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
-      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"  class="hidden"></button>
+      <button
+        id="button1"
+        onclick="guess(1)"
+        onmousedown="startTone(1)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button2"
+        onclick="guess(2)"
+        onmousedown="startTone(2)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button3"
+        onclick="guess(3)"
+        onmousedown="startTone(3)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button4"
+        onclick="guess(4)"
+        onmousedown="startTone(4)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button5"
+        onclick="guess(5)"
+        onmousedown="startTone(5)"
+        onmouseup="stopTone()"
+        class="hidden"
+      ></button>
+      <button
+        id="button6"
+        onclick="guess(6)"
+        onmousedown="startTone(6)"
+        onmouseup="stopTone()"
+        class="hidden"
+      ></button>
     </div>
-    
 
+    <br />
+    <p2 id="score_endless_title" class="hidden">
+      <strong><u>HIGH SCORES:</u></strong>
+    </p2>
+    <br />
+    <p3 id="score_endless_one" class="hidden"> 1. </p3>
+    <br />
+    <p4 id="score_endless_two" class="hidden"> 2. </p4>
+    <br />
+    <p5 id="score_endless_three" class="hidden"> 3. </p5>
 
-
+    <p2 id="score_timed_title" class="hidden">
+      <strong><u>HIGH SCORES:</u></strong>
+    </p2>
+    <br />
+    <p3 id="score_timed_one" class="hidden"> 1. </p3>
+    <br />
+    <p4 id="score_timed_two" class="hidden"> 2. </p4>
+    <br />
+    <p5 id="score_timed_three" class="hidden"> 3. </p5>
   </body>
 </html>
