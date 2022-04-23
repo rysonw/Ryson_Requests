@@ -52,7 +52,7 @@ LOSS ON INSANE:![RR_Insane_Loss](https://user-images.githubusercontent.com/91065
 
 ENDLESS MODE with LEADERBOARD:![RR_Endless](https://user-images.githubusercontent.com/91065673/163973076-51340a5b-1066-4315-b3d1-f425330f654b.gif)
 
-TIMED MODE with LIVES:
+TIMED MODE with LIVES:![RR_Timed_Mode](https://user-images.githubusercontent.com/91065673/164883463-3f533673-6037-4055-b518-39d184822507.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
@@ -91,7 +91,7 @@ The computer science topic I have struggled most with is Data Structures and Alg
 *Suppose you’re working on a project with a group and a teammate suggests a feature that you feel strongly will take the project in a bad direction. What do you do?*
 	I would first ask my teammate why they think this feature is so necessary and a clear explanation of how and why it needs to be implemented. I would then, respectfully, give my explanation on why I believe that would not work and that we should leave it out. I would also ask the rest of my teammates what they believe is the right decision going forward. For team projects, I always believe collaboration and communication are key no matter what setting you are in. Doing a vote and gathering input from everybody is the best way to move forward on whether or not we should implement the suggested feature
  
-*What are some of the things you’re hoping to take away from the SITE program?*
+*What are some of the things you’re hoping to take away from the SaleForce program?*
 I hope to absorb as much information as possible. Having the opportunity to be surrounded my so many developed and experienced engineers and developers is too great of an opportunity so I will be sure to make the most that I can of it. I would like to learn more about back-end web development and gather new ideas about other possible fields I can partake in once I have finished my degree. I would also like to expand my network as much as possible. Meeting new developers and engineers like myself is a great way to learn, grow and increase chances of success later down the road in my career. Another thing I hope to take away is an the work schedule of a modern-day software engineer/developer. I would liek to get familiar with the culture, atmosphere, and mindset of an engineer to better prepare me for when I am actually in the field. The final thing I hope to take away is a well-polished and developed application to add to my portfolio. With everything that I do, I want to exceed expectations as much as I possibly can. I know that if I do get into this prestigious program, that I will be putting forth my 110% best effort to put out a quality product to present to the board
 
 ## License
