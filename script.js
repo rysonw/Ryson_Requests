@@ -17,7 +17,8 @@ var clueHoldTimeTrial = 500;
 var cluePauseTime = 400; //how long to pause in between clues
 var nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
 var lives = 2
-
+let second = 3
+let millisecond = 0
 
 function selectDifficulty() {
   document.getElementById("instruction").innerHTML =
@@ -86,6 +87,7 @@ function startTimeGame() {
   while (gamePlaying == true) {
     generateNumber(1, 4);
   }
+  start()
   timed = true;
   console.log(pattern.length);
   progress = 0;
@@ -103,6 +105,8 @@ function startTimeGame() {
   document.getElementById("life1").classList.remove("hidden");
   document.getElementById("life2").classList.remove("hidden");
   document.getElementById("life3").classList.remove("hidden");
+  document.getElementById("second").classList.remove("hidden");
+  document.getElementById("millisecond").classList.remove("hidden");
   playTimedClueSequence();
 }
 
@@ -126,12 +130,16 @@ function stopGame() {
   document.getElementById("life1").classList.add("hidden");
   document.getElementById("life2").classList.add("hidden");
   document.getElementById("life3").classList.add("hidden");
+  document.getElementById("second").classList.add("hidden");
+  document.getElementById("millisecond").classList.add("hidden");
   document.getElementById("instruction").innerHTML =
     "Welcome! <br/> https://github.com/rysonw/Ryson_Requests";
   endless = false;
   timed = false;
   pattern = [];
   var lives = 2
+  reset()
+  pause()
 }
 
 function playSingleClue(btn) {
@@ -147,11 +155,13 @@ function playClueSequence() {
   let delay = nextClueWaitTime; //set delay to initial wait time
   for (let i = 0; i <= progress; i++) {
     // for each clue that is revealed so far
+    second += 3
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms");
     setTimeout(playSingleClue, delay, pattern[i]); // set a timeout to play that clue
     delay += clueHoldTime;
     delay += cluePauseTime;
   }
+  start()
 }
 
 function playEndlessClueSequence() {
@@ -220,7 +230,7 @@ function guess(btn, x) {
         guessCounter++;
       }
     } else {
-      if (lives > 0) {
+      if (lives > 0 || second <= 0) { //Needs to be only for timed mode, '&&'
         if (lives == 2) {
           document.getElementById("life3").classList.add("hidden");
         }
@@ -354,6 +364,7 @@ function highScore_timed(x) {
   }
 }
 
+
 // Page Initialization
 // Init Sound Synthesizer
 var AudioContext = window.AudioContext || window.webkitAudioContext;
@@ -364,3 +375,40 @@ g.connect(context.destination);
 g.gain.setValueAtTime(0, context.currentTime);
 o.connect(g);
 o.start(0);
+
+
+// Timer
+"use strict";
+
+let cron;
+
+document.form_main.start.onclick = () => start();
+document.form_main.pause.onclick = () => pause();
+document.form_main.reset.onclick = () => reset();
+
+function start() {
+  pause();
+  cron = setInterval(() => { timer(); }, -10);
+}
+
+function pause() {
+  clearInterval(cron);
+}
+
+function reset() {
+  second = 0;
+  millisecond = 0;
+}
+
+function timer() {
+  if ((millisecond += 10) == 1000) {
+    millisecond = 0;
+    second--;
+  }
+  document.getElementById('second').innerText = returnData(second);
+  document.getElementById('millisecond').innerText = returnData(millisecond);
+}
+
+function returnData(input) {
+  return input > 10 ? input : `0${input}`
+}
