@@ -1,6 +1,6 @@
 # Pre-Work - Ryson Requests
 
-Ryson Requests is a Light & Sound Memory game to apply for CodePath's SITE Program. 
+Ryson Requests is a Light & Sound Memory game to apply for CodePath's SalesForce Program.
 
 Submitted by: Ryson W. Wong
 
