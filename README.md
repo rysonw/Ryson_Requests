@@ -4,7 +4,7 @@ Ryson Requests is a Light & Sound Memory game
 
 Submitted by: Ryson W. Wong
 
-Time spent: 12 hours spent in total
+Time spent: 5 hours spent in total
 
 Link to project: https://glitch.com/edit/#!/ryson-requests
 
