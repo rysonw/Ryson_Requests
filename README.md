@@ -34,14 +34,6 @@ The following **required** functionality is complete:
 
 ## Video Walkthrough (GIF)
 
-If you recorded multiple GIFs for all the implemented features, you can add them here:
-
-WIN ON EASY:![RR_Easy_Win](https://user-images.githubusercontent.com/91065673/163972945-80d756da-52d8-4f17-b35f-d8b7f3227652.gif)
-
-WIN ON MEDIUM:![RR_Medium_Win](https://user-images.githubusercontent.com/91065673/163972964-24b06950-b081-4c8b-93e9-465a1079ee7b.gif)
-
-LOSS ON INSANE:![RR_Insane_Loss](https://user-images.githubusercontent.com/91065673/163973033-1a9a2d5a-d85e-4a66-9f06-288eb295f5af.gif)
-
 ENDLESS MODE with LEADERBOARD:![RR_Endless](https://user-images.githubusercontent.com/91065673/163973076-51340a5b-1066-4315-b3d1-f425330f654b.gif)
 
 TIMED MODE with LIVES:![RR_Timed_Mode](https://user-images.githubusercontent.com/91065673/164883463-3f533673-6037-4055-b518-39d184822507.gif)
