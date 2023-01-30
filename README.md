@@ -2,7 +2,7 @@ Ryson Requests is a Light & Sound Memory game created for a One-Hour Game Jam
 
 Link to project: https://glitch.com/edit/#!/ryson-requests
 
-The following **required** functionality is complete:
+Created for a 30-min gamejam with itch.io!
 
 * [X] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
 * [X] "Start" button toggles between "Start" and "Stop" when clicked. 
